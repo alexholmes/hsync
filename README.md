@@ -35,14 +35,14 @@ Options which require an update to distCp marked by `*`. distCp options not supp
 with `~`.
 
 <pre><code>
--v, --verbose               increase verbosity
+-v, --verbose               * increase verbosity
 -c, --checksum              skip based on checksum, not mod-time & size
 -p, --perms                 preserve permissions
 -E, --executability         preserve executability
     --chmod=CHMOD           * affect file and/or directory permissions
 -o, --owner                 preserve owner (super-user only)
 -g, --group                 preserve group
--a, --archive               archive mode; equals -rtgo
+-a, --archive               * archive mode; equals -rtgo
 -r, --recursive             * recurse into directories
 -u, --update                * skip files that are newer on the receiver
 -t, --times                 * preserve modification times
